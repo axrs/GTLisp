@@ -1,0 +1,59 @@
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Version 0.0.11 - 23 November 2011
+-Added online version checker and updater.
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Version 0.0.10 - 11 November 2011
+-Added automated times entry into GTManager
+-Added simple save times dialog to replace the command line version
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Version 0.0.7 - 09 September 2011
+-Fixed bug within times entries (wouldn't work after saving a new drawing).
+-Added overlay features
+
+-NEW COMMANDS:
+	(gtoverlay:message "Message String" colorInteger) - Displays a message next to the cursor.
+        
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Version 0.0.6 - 29 August 2011
+-Fixed bug within Config Tools
+-Add publish feature to merge files
+
+-NEW COMMANDS:
+	(gtpublish:publish) - Publishes all layout tabs to a single PDF.
+	(gtpublish:create-template) - creates a base publish template file.
+	(gtpublish:create-register) - populates a base template file with a drawing specification.
+        
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Version 0.0.5 - 19 August 2011
+-Refactored Source into Namespaces.
+-Tweaked a few existing commands for efficiency.
+
+-NEW COMMANDS:
+	(gtplot:archive) - Saves the current drawing as a copy to an configured folder, purging, auditing, binding and removing references.
+        
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Version 0.0.4 - 10 August 2011
+-Fixed issue with paperspace plotting first (hardCopy).
+
+-NEW COMMANDS:
+	-GT-INFORMATION-BOLTS - Displays generic bolt information.
+	-GT-INFORMATION-REINFORCEMENT - Displays generic reinforcement information.
+	-GT-INFORMATION-PURLINS - Displays generic purlin information.
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Version 0.0.3 - 28 July 2011
+-Fixed issue with paperspace plotting first.
+-Enhanced CSV exports of block points.
+-Block generation and dwg creation functions.
+
+-NEW COMMANDS:
+	-GT-EXPORT-SETOUTPOINTS - Command to export setout points to a CSV file. Simple procedure: Run the command, select a block, select a tag.
+	-GT-CREATE-BLOCKS - Creates GTARR1 through to GTARR7 within the current drawing (doesn't use the DWG files). i.e. it actually draws them 
+			    programmatically. This will be used mostly by my application during leader style creation and so forth, but I'm telling 
+			    you now should you need it.
+	-GT-SAVE-BLOCKS - Similar to above, however it also saves these blocks as individual DWG files wherever the .vlx file is.
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=

@@ -1,0 +1,1 @@
+(gtoverlay:message (STRCAT "GTLISP Utilities - " $gtversion "sucessfully loaded.") 152)
