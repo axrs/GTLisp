@@ -1,8 +1,8 @@
-;;; Visual LISP make file [V1.0] GTLISP saved to:[Z:/GTLISP - Development] at:[9/20/12] 
-(prv-def (:target . "GTLISP.VLX")
-	 (:active-x . T)
+;;; Visual LISP make file [V1.0] GTLISP saved to:[Z:/GitHub/_GTLisp] at:[2/27/14] 
+(PRV-DEF (:target . "GTLISP.VLX")
+	 (:active-x . t)
 	 (:separate-namespace)
-	 (:protected . T)
+	 (:protected . t)
 	 (:load-file-list
 	   (:lsp "gt_firstLoad.lsp")
 	   (:lsp "gt_xml.lsp")

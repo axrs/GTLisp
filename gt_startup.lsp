@@ -11,7 +11,7 @@
 ;|Clear the configuration variable                                            |;
 ;;=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-;;
 (SETQ $gtconfig nil)
-(SETQ $gtversion "0.0.14e")
+(SETQ $gtversion "0.0.16")
 (SETQ $gtuserid (gtstrings:md5hash (gthardware:generateid)))
 (PRINC (STRCAT "\nYOUR GTLISP USER ID IS: "
 	       $gtuserid
